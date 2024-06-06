@@ -3,26 +3,26 @@
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/VkRWdHWx/57214s81.jpg',
-    title: "Multimedia Web",
+    img: 'https://i.postimg.cc/xdPHrkk1/barbearia.png',
+    title: "Barbearia Guedes",
     desc: "",
-    link: "",
-    git: "",
+    link: "https://pablo.mateustavares.com.br/TCC%20-%20PI/",
+    git: "https://github.com/GHOSTPF",
   },
   {
     id: 2,
-    img: 'https://i.postimg.cc/Bv75CLyN/4167022.jpg',
-    title: "Tarvel Agency",
-    link: "",
-    git: "",
+    img: 'https://i.postimg.cc/QtT397pX/SST.png',
+    title: "Start Soft Tech",
+    link: "https://pablo.mateustavares.com.br/SITE%20NOVO/",
+    git: "https://github.com/GHOSTPF",
   },
   {
     id: 3,
-    img: 'https://i.postimg.cc/wBjcJcW7/5890625.jpg',
-    title: "Music Player",
+    img: 'https://i.postimg.cc/RFknKwyG/Captura-de-tela-de-2024-06-06-10-30-23.png',
+    title: "Oasis Cost Resort",
     desc: "",
-    link: "",
-    git: "",
+    link: "https://oasis-costeiro-resort.netlify.app/",
+    git: "https://github.com/GHOSTPF",
   }
   
 ];

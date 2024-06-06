@@ -10,7 +10,7 @@ const Contact = () => {
       // data-aos="fade-up"
        className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-          Contact
+          Contato
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
@@ -22,9 +22,9 @@ const Contact = () => {
             <div 
             data-aos="zoom-in"
             >
-              <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
+              <h1 className="text-5xl font-bold sm:text-3xl">Você Precisa</h1>
               <h3 className="text-xl sm:text-lg">
-                Beautiful design for your website leave a request
+                De um lindo design para sua empresa
               </h3>
             </div>
           </div>
@@ -45,25 +45,25 @@ const Contact = () => {
             data-aos="zoom-in"
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:xyz@gmail.com"
+            action="pabloftavares460@gmail.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
-              placeholder="e.g. example@email.com"
+              placeholder="example@email.com"
               name=""
             />
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="text"
-              placeholder="e.g. John Doe"
+              placeholder="Pablo Tavares"
               name=""
             />
             <textarea
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               rows="4"
               cols="50"
-              placeholder="Write your message"
+              placeholder="Escreva sua mensagem"
               name=""
               id=""
             />
@@ -71,7 +71,7 @@ const Contact = () => {
               className="bg-yellow-500 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
               type="submit"
             >
-              <span>Send</span>
+              <span>Enviar</span>
               <RiSendPlaneFill/>
             </button>
           </form>

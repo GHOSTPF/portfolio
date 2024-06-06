@@ -3,13 +3,14 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillInstagram,
+  AiFillCodepenCircle
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-
+import FotoP from "../../assets/FotoP.png"; // Ensure this path is correct
 
 const Hero = () => {
   return (
@@ -21,16 +22,17 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Olá, Eu sou Pablo Tavares
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Web Developer",
+                "Back-end",
                 2000,
-                "Freelancer",
+                "Front-end",
                 2000,
-                "",
+                "Web Designer",
+                2000,
               ]}
               speed={30}
               wrapper="h2"
@@ -38,10 +40,9 @@ const Hero = () => {
               className="text-yellow-500 text-4xl font-bold sm:text-3xl"
             />
             <p
-              // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              Desenvolvedor Web Full-Stack com experiência em projetos com react, js e php
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -49,7 +50,7 @@ const Hero = () => {
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span>
+              <span> Sobre mim</span>
             </a>
             <a
               href={resumePDF}
@@ -57,7 +58,7 @@ const Hero = () => {
               download
             >
               <div className="flex items-center gap-1">
-                Resume <FiDownload />
+                Curriculo <FiDownload />
               </div>
             </a>
           </div>
@@ -88,13 +89,13 @@ const Hero = () => {
               <li>
                 <a href="">
                   {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillCodepenCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <FaWhatsapp className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>
@@ -103,11 +104,10 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
-            data-aos="fade-up"
+              data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
-              // src={mine}
-              alt="mine"
+              src={FotoP}
+              alt="Pablo Tavares"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">

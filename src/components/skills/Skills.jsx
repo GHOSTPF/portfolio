@@ -2,7 +2,7 @@ import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { IoLogoHtml5, IoLogoCss3, IoLogoPython } from "react-icons/io";
 
 
 import {
@@ -10,6 +10,9 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  SiMysql,
+  SiPhp,
+  SiTypescript,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
@@ -23,7 +26,7 @@ const Skills = ({ darkMode }) => {
         {/* heading */}
         <div data-aos="fade-up" className="relative mb-5">
           <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-            My Skills
+             Skills
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
         </div>
@@ -34,7 +37,7 @@ const Skills = ({ darkMode }) => {
               data-aos="fade-up"
               className=" text-gray-700 font-medium w-[100%]"
             >
-              Here are my skills.
+              Essas são minhas skills.
             </p>
             {/* left box */}
             <div
@@ -43,17 +46,17 @@ const Skills = ({ darkMode }) => {
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={75} />
                 <ProgressBar
                   logo={<SiJavascript />}
                   name={"Javascript"}
-                  value={80}
+                  value={69}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={50} />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
-                  value={80}
+                  value={79}
                 />
               </div>
             </div>
@@ -62,33 +65,30 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<SiPhp />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"Php"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={<SiMysql />}
                 black={"white"}
                 white={"black"}
-                skill={"MongoDB"}
+                skill={"Mysql"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<SiNextdotjs />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Next Js"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <GrCode/>
-                }
+                logo={<SiTypescript />}
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Typescript"}
               />
               {/* <SkillBox
                 className=""

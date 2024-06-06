@@ -6,15 +6,15 @@ import { RxCross2 } from "react-icons/rx";
 const navItems = [
   {
     id: 0,
-    name: "home",
+    name: "Home",
   },
   {
     id: 1,
-    name: "skills",
+    name: "habilidades",
   },
   {
     id: 2,
-    name: "works",
+    name: "Projetos",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const navItems = [
   },
   {
     id: 4,
-    name: "contact",
+    name: "Contato",
   },
 ];
 
@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            John Doe.
+            Pablo Tavares.
           </Link>
         </div>
         <div
@@ -109,7 +109,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               href=""
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
-              HIRE ME
+              Sobre mim
             </a>
           </ul>
         </div>
